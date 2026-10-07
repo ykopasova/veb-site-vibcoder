@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/yulia-kopasova.jpg" type="image/jpeg">
+  <title>Юлия Копасова — сайты, AI-сервисы и автоматизации</title>
+  <meta name="description" content="Создание сайтов, веб-сервисов, AI-ассистентов, чат-ботов и автоматизаций для экспертов, предпринимателей и онлайн-проектов.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Юлия Копасова — цифровые продукты с помощью AI">
+  <meta property="og:description" content="Сайты, сервисы, AI-ассистенты, чат-боты и автоматизации для экспертов и бизнеса.">
+  <meta property="og:type" content="website">
+  <!-- Рекомендация: позже добавить og:image — превью 1200 × 630 пикселей для соцсетей и мессенджеров -->
+
+  <!-- Шрифты: выразительный display + читаемый текст -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ===== ШАПКА / НАВИГАЦИЯ ===== -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="Наверх">
+        <span class="logo__mark" aria-hidden="true"></span>
+        Юлия Копасова
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#about" class="nav__link">Обо мне</a>
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#process" class="nav__link">Процесс</a>
+        <a href="#projects" class="nav__link">Проекты</a>
+        <a href="#advantages" class="nav__link">Преимущества</a>
+        <a href="#contact" class="nav__link nav__link--cta">Заявка</a>
+      </nav>
+
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 1. ГЛАВНЫЙ ЭКРАН ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__layout">
+        <div class="hero__content">
+          <p class="hero__brand reveal">Юлия Копасова</p>
+          <p class="hero__tagline reveal">AI-эксперт • вайбкодер • создатель цифровых продуктов</p>
+          <h1 class="hero__title reveal">Превращаю идеи в работающие цифровые продукты</h1>
+          <p class="hero__subtitle reveal">
+            Создаю сайты, веб-сервисы, AI-ассистентов, чат-ботов и автоматизации для экспертов, предпринимателей и онлайн-проектов.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#contact" class="btn btn--primary">Обсудить проект</a>
+            <a href="#projects" class="btn btn--ghost">Посмотреть работы</a>
+          </div>
+        </div>
+        <div class="hero__media reveal">
+          <img
+            class="hero__photo"
+            src="images/yulia-kopasova.jpg"
+            alt="Юлия Копасова — эксперт по нейросетям и цифровым продуктам"
+            width="640"
+            height="800"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2. ОБО МНЕ ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about">
+          <div class="about__intro reveal">
+            <p class="eyebrow">Знакомство</p>
+            <h2 class="section__title">Обо мне</h2>
+            <p class="about__lead">
+              Юлия Копасова — эксперт по нейросетям и созданию цифровых продуктов
+            </p>
+            <p class="about__text">
+              Меня зовут Юлия Копасова. Я предприниматель, AI-креатор и автор образовательных проектов. Создаю сайты, сервисы, AI-ассистентов, чат-ботов и автоматизации, а также обучаю экспертов и предпринимателей превращать идеи в работающие цифровые продукты с помощью искусственного интеллекта.
+            </p>
+            <p class="about__text">
+              Более 10 лет я развиваю онлайн-проекты и обучаю людей применять современные инструменты на практике. Для меня важно создавать не просто красивые страницы, а понятные и полезные решения, которые помогают бизнесу развиваться, экономить время и запускать новые продукты.
+            </p>
+          </div>
+
+          <div class="about__stats">
+            <article class="about__stat reveal">
+              <p class="about__stat-value">10 лет</p>
+              <p class="about__stat-label">в онлайн-проектах</p>
+            </article>
+            <article class="about__stat reveal">
+              <p class="about__stat-value">2500+</p>
+              <p class="about__stat-label">учеников прошли обучение</p>
+            </article>
+            <article class="about__stat reveal">
+              <p class="about__stat-value">AI + вайб-кодинг</p>
+              <p class="about__stat-label">от идеи до запуска</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. УСЛУГИ ===== -->
+    <section class="section section--soft" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Услуги</p>
+          <h2 class="section__title">Что могу сделать для вас</h2>
+          <p class="section__lead">
+            От первой страницы до автоматизации — подбираю формат под цель бизнеса, а не «ради технологий».
+          </p>
+        </div>
+
+        <div class="cards cards--services">
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">01</span>
+            <h3 class="card__title">Сайты и лендинги</h3>
+            <p class="card__text">Создание современных сайтов, лендингов и страниц для запуска продуктов, услуг, курсов и личных брендов.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">02</span>
+            <h3 class="card__title">Веб-сервисы и приложения</h3>
+            <p class="card__text">Создание личных кабинетов, обучающих платформ, мини-сервисов, квизов, калькуляторов и внутренних инструментов.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">03</span>
+            <h3 class="card__title">Чат-боты и AI-ассистенты</h3>
+            <p class="card__text">Разработка помощников, которые консультируют клиентов, отвечают на вопросы, собирают заявки и помогают команде.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">04</span>
+            <h3 class="card__title">Автоматизация процессов</h3>
+            <p class="card__text">Создание систем для работы с контентом, заявками, базами данных, документами и повторяющимися задачами.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">05</span>
+            <h3 class="card__title">Консультации и обучение</h3>
+            <p class="card__text">Помощь в выборе AI-инструментов, разработке идеи цифрового продукта и самостоятельном запуске проекта.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. КАК ПРОХОДИТ РАБОТА ===== -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Процесс</p>
+          <h2 class="section__title">Как проходит работа</h2>
+          <p class="section__lead">
+            Прозрачный путь от первой переписки до запуска — без сюрпризов на финише.
+          </p>
+        </div>
+
+        <ol class="process">
+          <li class="process__item reveal">
+            <span class="process__num">1</span>
+            <div>
+              <h3>Знакомство</h3>
+              <p>Обсуждаем идею, аудиторию и желаемый результат.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">2</span>
+            <div>
+              <h3>Анализ задачи</h3>
+              <p>Уточняем требования, ограничения и приоритеты.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">3</span>
+            <div>
+              <h3>Прототип</h3>
+              <p>Собираем черновик структуры и ключевых экранов.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">4</span>
+            <div>
+              <h3>Разработка</h3>
+              <p>Воплощаем продукт с помощью AI-инструментов и ручной доводки.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">5</span>
+            <div>
+              <h3>Тестирование</h3>
+              <p>Проверяем сценарии на разных устройствах и устраняем сбои.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">6</span>
+            <div>
+              <h3>Запуск</h3>
+              <p>Публикуем продукт и сопровождаем первые шаги после старта.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== 5. ПРОЕКТЫ ===== -->
+    <section class="section section--soft" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Проекты</p>
+          <h2 class="section__title">Примеры работ</h2>
+          <p class="section__lead">
+            Подборка реальных проектов: образовательные сайты, AI-платформы, боты и персональные ассистенты.
+          </p>
+        </div>
+
+        <div class="cards cards--projects">
+          <article class="card card--project reveal">
+            <div class="card__media">
+              <img
+                class="card__image"
+                src="projects/baza-ai.jpg"
+                alt="Лендинг образовательного проекта База ИИ"
+                width="640"
+                height="360"
+                loading="lazy"
+              >
+            </div>
+            <div class="card__body">
+              <p class="card__label">Образовательный онлайн-проект</p>
+              <h3 class="card__title">База ИИ</h3>
+              <p class="card__text">Лендинг базы знаний по искусственному интеллекту с практическими уроками, AI-инструментами и материалами для начинающих пользователей.</p>
+              <p class="card__meta"><span>Технологии:</span> Веб-разработка, AI, онлайн-образование</p>
+              <a class="btn btn--small btn--ghost" href="https://baza.kopasova.online/" target="_blank" rel="noopener noreferrer">Посмотреть сайт</a>
+            </div>
+          </article>
+
+          <article class="card card--project reveal">
+            <div class="card__media">
+              <img
+                class="card__image"
+                src="projects/baza-ai-studio.jpg"
+                alt="Лендинг образовательного проекта База AI STUDIO"
+                width="640"
+                height="360"
+                loading="lazy"
+              >
+            </div>
+            <div class="card__body">
+              <p class="card__label">Сайт образовательного проекта</p>
+              <h3 class="card__title">База AI STUDIO</h3>
+              <p class="card__text">Лендинг базы AI STUDIO, посвящённой созданию визуального контента, изображений и видео с помощью современных нейросетей.</p>
+              <p class="card__meta"><span>Технологии:</span> Веб-разработка, AI-видео, онлайн-образование</p>
+              <a class="btn btn--small btn--ghost" href="https://video.kopasova.online/" target="_blank" rel="noopener noreferrer">Посмотреть сайт</a>
+            </div>
+          </article>
+
+          <article class="card card--project reveal">
+            <div class="card__media">
+              <img
+                class="card__image"
+                src="projects/neurovideo-course.jpg"
+                alt="Платформа НейроИзба AI для создания фото и видео"
+                width="640"
+                height="360"
+                loading="lazy"
+              >
+            </div>
+            <div class="card__body">
+              <p class="card__label">AI-платформа</p>
+              <h3 class="card__title">НейроИзба AI</h3>
+              <p class="card__text">Интерактивная платформа для создания фотографий и видео с помощью искусственного интеллекта, готовых идей, инструментов и визуальных шаблонов.</p>
+              <p class="card__meta"><span>Технологии:</span> Next.js, Tailwind CSS, AI</p>
+              <span class="card__badge">Проект в разработке</span>
+            </div>
+          </article>
+
+          <article class="card card--project reveal">
+            <div class="card__media">
+              <img
+                class="card__image"
+                src="projects/golos-eksperta.jpg"
+                alt="Telegram-бот Голос Эксперта для создания контента"
+                width="640"
+                height="360"
+                loading="lazy"
+              >
+            </div>
+            <div class="card__body">
+              <p class="card__label">Telegram-бот</p>
+              <h3 class="card__title">Голос Эксперта</h3>
+              <p class="card__text">Telegram-бот, который помогает экспертам создавать контент для социальных сетей: посты, идеи для каруселей, сценарии Reels, заголовки и хуки.</p>
+              <p class="card__meta"><span>Технологии:</span> Telegram Bot API, AI, автоматизация</p>
+              <a class="btn btn--small btn--ghost" href="https://t.me/golos_experta_bot" target="_blank" rel="noopener noreferrer">Открыть бота</a>
+            </div>
+          </article>
+
+          <article class="card card--project reveal">
+            <div class="card__media">
+              <img
+                class="card__image"
+                src="images/projects/klava-ai-assistant.jpg"
+                alt="Персональный AI-ассистент Клава на собственном сервере"
+                width="640"
+                height="360"
+                loading="lazy"
+              >
+            </div>
+            <div class="card__body">
+              <p class="card__label">Персональный AI-ассистент</p>
+              <h3 class="card__title">Клава</h3>
+              <p class="card__text">Приватный AI-ассистент на базе OpenClaw, развёрнутый на собственном сервере. Помогает автоматизировать задачи, работать с текстами, создавать контент, вести базу знаний и взаимодействовать с другими сервисами.</p>
+              <p class="card__meta"><span>Технологии:</span> OpenClaw, AI, автоматизация, собственный сервер</p>
+              <span class="card__badge">Приватный проект</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 6. ПРЕИМУЩЕСТВА ===== -->
+    <section class="section" id="advantages">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Преимущества</p>
+          <h2 class="section__title">Почему удобно работать вместе</h2>
+          <p class="section__lead">
+            Фокус на результате, который можно использовать в бизнесе уже в ближайшие итерации.
+          </p>
+        </div>
+
+        <div class="cards cards--advantages">
+          <article class="card reveal">
+            <h3 class="card__title">Быстрый запуск</h3>
+            <p class="card__text">Короткий путь от идеи до рабочей версии за счёт AI и чётких приоритетов.</p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card__title">Индивидуальный подход</h3>
+            <p class="card__text">Решение под вашу задачу, аудиторию и процессы — без лишнего шаблона «для всех».</p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card__title">Понятная коммуникация</h3>
+            <p class="card__text">Объясняю статус простыми словами: что сделано, что дальше и что нужно от вас.</p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card__title">AI-инструменты</h3>
+            <p class="card__text">Использую современные ИИ-средства, чтобы ускорять разработку и проверку гипотез.</p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card__title">Поддержка после запуска</h3>
+            <p class="card__text">Помогаю с правками и вопросами после публикации, чтобы продукт уверенно заработал.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 7. ФОРМА ЗАЯВКИ ===== -->
+    <section class="section section--contact" id="contact">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <p class="eyebrow">Заявка</p>
+          <h2 class="section__title">Обсудим ваш проект</h2>
+          <p class="section__lead">
+            Кратко опишите задачу — отвечу в Telegram или на почту. Можно написать сразу по кнопкам ниже.
+          </p>
+          <div class="contact__links">
+            <a class="btn btn--primary" href="https://t.me/Yuliya_Kopasova" target="_blank" rel="noopener noreferrer" id="telegram-link">
+              Написать в Telegram
+            </a>
+            <a class="btn btn--ghost" href="mailto:y-kopasova@inbox.ru" id="email-link">
+              Написать на почту
+            </a>
+            <a class="btn btn--ghost" href="https://vk.ru/digital.izba" target="_blank" rel="noopener noreferrer" id="vk-link">
+              VK
+            </a>
+          </div>
+        </div>
+
+        <form class="form reveal" id="lead-form" novalidate>
+          <div class="form__field">
+            <label for="name">Имя <span class="required">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="Как к вам обращаться" required>
+            <span class="form__error" id="name-error" role="alert"></span>
+          </div>
+
+          <div class="form__field">
+            <label for="contact-method">Способ связи <span class="required">*</span></label>
+            <select id="contact-method" name="contact" required>
+              <option value="" disabled selected>Выберите удобный способ</option>
+              <option value="Telegram">Telegram</option>
+              <option value="Почта">Почта</option>
+            </select>
+            <span class="form__error" id="contact-error" role="alert"></span>
+          </div>
+
+          <div class="form__field" id="contact-detail-field">
+            <label for="contact-detail">Ваш контакт <span class="required">*</span></label>
+            <input type="text" id="contact-detail" name="contact_detail" autocomplete="username" placeholder="Ник, email или ссылка для связи" required>
+            <span class="form__error" id="contact-detail-error" role="alert"></span>
+          </div>
+
+          <div class="form__field">
+            <label for="task">Краткое описание задачи <span class="required">*</span></label>
+            <textarea id="task" name="task" rows="4" placeholder="Что нужно сделать и к какому сроку" required></textarea>
+            <span class="form__error" id="task-error" role="alert"></span>
+          </div>
+
+          <div class="form__field form__field--checkbox">
+            <label class="form__check" for="privacy">
+              <input type="checkbox" id="privacy" name="privacy" required>
+              <span>
+                Я соглашаюсь на обработку персональных данных и принимаю
+                <a href="privacy.html">Политику конфиденциальности</a>
+                <span class="required">*</span>
+              </span>
+            </label>
+            <span class="form__error" id="privacy-error" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+          <p class="form__hint" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 8. ПОДВАЛ ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__name">Юлия Копасова</p>
+        <p class="footer__note">AI-эксперт • вайбкодер • создатель цифровых продуктов</p>
+      </div>
+      <div class="footer__contacts">
+        <p class="footer__contacts-title">Контакты</p>
+        <a href="https://t.me/Yuliya_Kopasova" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="mailto:y-kopasova@inbox.ru">Почта</a>
+        <a href="https://vk.ru/digital.izba" target="_blank" rel="noopener noreferrer">VK</a>
+        <a href="privacy.html">Политика конфиденциальности</a>
+      </div>
+      <p class="footer__copy">© <span id="year"></span> Юлия Копасова. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <!-- Всплывающее уведомление для кнопок проектов -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
